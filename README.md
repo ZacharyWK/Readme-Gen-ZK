@@ -28,9 +28,6 @@
 ## Usage Instructions
     Open Terminal, navigate to location of Readme-Gen-ZK/index.js, and use node to run index.js
 
-[WALKTHROUGH]({https://github.com/ZacharyWK/Readme-Gen-ZK/raw/main/Readme-Gen-ZK.webm} "WALKTHROUGH")
-
-
 ---
 ## Given Criteria
 * Must be a command-line application that accepts user input that creates a readme mark down file. 
