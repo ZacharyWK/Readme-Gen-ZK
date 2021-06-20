@@ -1,13 +1,14 @@
+//worked with cassandra, paola, matthew and joe on 6-18-2021
 
-const fs = require('fs');
-let funcs = require('./utils/generateMarkdown.js') 
 const inquirer = require('inquirer');
+const fs = require('fs');
 const util = require('util');
-
-
-// TODO: Create an array of questions for user input
+let generateMarkdown = require('./utils/generateMarkdown');
 const writeFileAsync = util.promisify(fs.writeFile);
-const start = () => { return inquirer.prompt([
+
+
+const onGo = () => { 
+return inquirer.prompt([
     {
       type: 'input',
       name: 'email',
@@ -51,10 +52,16 @@ const start = () => { return inquirer.prompt([
       default: 'This is a project was made to do...'
     },
     {
-      type: 'confirm',
+      type: 'input',
       name: 'design',
-      message: 'Do you need a placeholders for Images?',
-      choices: ['Yes','No']
+      message: 'Explain design Choices',
+      default: 'The UI is...'
+    },
+    {
+      type: 'list',
+      name: 'file',
+      message: 'Select Filetype of first Image',
+      choices: ['jpg','gif','png','webp',],
     },
     {
       type: 'input',
@@ -66,43 +73,41 @@ const start = () => { return inquirer.prompt([
       type: 'input',
       name: 'usage',
       message: 'Enter Usage Instructions.',
+      default:'Start by...',
     },
     {
       type: 'input',
       name: 'guideLines',
       message: 'Enter Contribution Guidelines.',
+      default:'Dont let your dreams be dreams...',
+
     },
     {
       type: 'input',
       name: 'testing',
       message: 'Enter Testing Instructions.',
+      default:'Do it...',
+
     },
     {
       type: 'edit',
       name: 'givenCriteria',
       message: 'List any Given Criteria.',
+      default: 'Do the thing...'
     },
     {
       type: 'list',
       name: 'license',
       message: 'License Selection',
-      choices: ['GNU', 'MIT', 'APACHE', 'CC0','WTFPL','Unlicense',],
+      choices: ['GNU', 'MIT', 'Apache', 'CC0','WTFPL','Unlicense',],
     },
-    // {
-    //   type: 'confirm',
-    //   name: 'deployed',
-    //   message: 'Will this Project be deployed on Github?',
-    //   choices: ['Yes','No']
-    // },
 ])
 };
 
 
-let go = () => {
-  start()
-  .then(funcs.licenseCheck)
-  // .then(funcs.deployCheck)
-  .then((data) => writeFileAsync('README.md', funcs.generateMarkdown(data)))
+go = () => {
+  onGo()
+  .then((data) => writeFileAsync('DEMO-README.md', generateMarkdown(data)))
   .then(() => console.log('Much Success!!!'))
   .catch((err) => console.error(err));
 };
