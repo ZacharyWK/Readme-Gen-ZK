@@ -20,7 +20,8 @@
 ## Design
 ![image](./img/image1.png)
 
-    Designed with myself as the intended user, default answers are provided to help expedite the readme creation process but also act as examples of what to enter should others wish to use it.
+    Designed with myself as the intended user, default answers are provided to help expedite 
+    the readme creation process but also act as examples of what to enter should others wish to use it.
 
 ## Installation Instructions
     Install node, download the Readme-Gen-ZK directory, then use the terminal to install inquirer (npm i inquirer)
@@ -54,4 +55,9 @@ EMAIL: <ZachKrause@live.com>
 [REPOSITORY](https://github.com/ZacharyWK/Readme-Gen-ZK)
 ```
 https://github.com/ZacharyWK/Readme-Gen-ZK
+```
+
+[WALKTHROUGH](https://github.com/ZacharyWK/Readme-Gen-ZK/blob/main/Readme-Gen-ZK.webm)
+```
+https://github.com/ZacharyWK/Readme-Gen-ZK/blob/main/Readme-Gen-ZK.webm
 ```
