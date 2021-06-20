@@ -1,6 +1,6 @@
 # 20210618 - Readme-Gen-ZK 
 
-![License](https://img.shields.io/badge/License-WTFPL-blue.svg)
+![License](https://img.shields.io/badge/License-Unlicense-red.svg)
 
  ## Table of Contents.
  * [Overview](#overview)
