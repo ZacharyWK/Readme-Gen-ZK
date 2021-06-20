@@ -57,7 +57,7 @@ EMAIL: <ZachKrause@live.com>
 https://github.com/ZacharyWK/Readme-Gen-ZK
 ```
 
-[WALKTHROUGH](https://github.com/ZacharyWK/Readme-Gen-ZK/blob/main/Readme-Gen-ZK.webm)
+[WALKTHROUGH](https://github.com/ZacharyWK/Readme-Gen-ZK/blob/main/WALKTHROUGH-Readme-Gen-ZK.webm)
 ```
-https://github.com/ZacharyWK/Readme-Gen-ZK/blob/main/Readme-Gen-ZK.webm
+https://github.com/ZacharyWK/Readme-Gen-ZK/blob/main/WALKTHROUGH-Readme-Gen-ZK.webm
 ```
