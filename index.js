@@ -107,7 +107,7 @@ return inquirer.prompt([
 
 go = () => {
   onGo()
-  .then((data) => writeFileAsync('DEMO-README.md', generateMarkdown(data)))
+  .then((data) => writeFileAsync(`${data.year}${data.month}${data.day}-README.md`, generateMarkdown(data)))
   .then(() => console.log('Much Success!!!'))
   .catch((err) => console.error(err));
 };
