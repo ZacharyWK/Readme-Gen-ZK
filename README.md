@@ -7,7 +7,6 @@
  * [Design](#overview)
  * [Installation](#overview)
  * [Usage](#overview)
- * [GuideLines](#overview)
  * [Criteria](#given-criteria)
  * [Questions](#have-questions)
  * [Links](#links)
