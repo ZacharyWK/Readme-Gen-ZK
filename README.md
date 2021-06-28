@@ -7,7 +7,6 @@
  * [Design](#overview)
  * [Installation](#overview)
  * [Usage](#overview)
- * [Walkthrough](#walkthrough)
  * [Criteria](#given-criteria)
  * [Questions](#have-questions)
  * [Links](#links)
@@ -28,10 +27,6 @@ Install node, download the Readme-Gen-ZK directory, then use the terminal to ins
 
 ## Usage Instructions
 Open Terminal, navigate to location of Readme-Gen-ZK/index.js, and use node to run index.js
-
-## Walkthrough
-
-![Walktrough](https://youtu.be/ok10KZsCR_4)
 
 ---
 ## Given Criteria
@@ -59,7 +54,7 @@ EMAIL: <ZachKrause@live.com>
 https://github.com/ZacharyWK/Readme-Gen-ZK
 ```
 
-[WALKTHROUGH](https://github.com/ZacharyWK/Readme-Gen-ZK/blob/main/WALKTHROUGH-Readme-Gen-ZK.mp4)
+[WALKTHROUGH](https://youtu.be/ok10KZsCR_4)
 ```
-https://github.com/ZacharyWK/Readme-Gen-ZK/blob/main/WALKTHROUGH-Readme-Gen-ZK.mp4
+https://youtu.be/ok10KZsCR_4
 ```
