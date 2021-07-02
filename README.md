@@ -14,19 +14,19 @@
 
 
 ## Overview 
-    This is a project that uses the terminal to generate a readme based on the users input.
+This is a project that uses the terminal to generate a readme based on the users input.
 
 ## Design
 ![image](./img/image1.png)
 
-    Designed with myself as the intended user, default answers are provided to help expedite 
-    the readme creation process but also act as examples of what to enter should others wish to use it.
+Designed with myself as the intended user, default answers are provided to help expedite 
+the readme creation process but also act as examples of what to enter should others wish to use it.
 
 ## Installation Instructions
-    Install node, download the Readme-Gen-ZK directory, then use the terminal to install inquirer (npm i inquirer)
+Install node, download the Readme-Gen-ZK directory, then use the terminal to install inquirer (npm i inquirer)
 
 ## Usage Instructions
-    Open Terminal, navigate to location of Readme-Gen-ZK/index.js, and use node to run index.js
+Open Terminal, navigate to location of Readme-Gen-ZK/index.js, and use node to run index.js
 
 ---
 ## Given Criteria
@@ -45,8 +45,6 @@
 
 GITHUB: <https://github.com/ZacharyWK>
 
-### or
-
 EMAIL: <ZachKrause@live.com>
 
 
@@ -56,7 +54,7 @@ EMAIL: <ZachKrause@live.com>
 https://github.com/ZacharyWK/Readme-Gen-ZK
 ```
 
-[WALKTHROUGH](https://github.com/ZacharyWK/Readme-Gen-ZK/blob/main/WALKTHROUGH-Readme-Gen-ZK.mp4)
+[WALKTHROUGH](https://youtu.be/ok10KZsCR_4)
 ```
-https://github.com/ZacharyWK/Readme-Gen-ZK/blob/main/WALKTHROUGH-Readme-Gen-ZK.mp4
+https://youtu.be/ok10KZsCR_4
 ```
