@@ -16,21 +16,21 @@ return`# ${data.year}${data.month}${data.day} - ${data.title}
 
 
 ## Overview 
-    ${data.description}
+${data.description}
 
 ## Design
 ![image](./img/image1.${data.file})
 
-    ${data.design}
+${data.design}
 
 ## Installation Instructions
-    ${data.installation}
+${data.installation}
 
 ## Usage Instructions
-    ${data.usage}
+${data.usage}
 
 ## Contribution Guidelines
-    ${data.guideLines}
+${data.guideLines}
 
 
 ---
